@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+// color
+$color1: #46474d;
+$color2: #1a2980;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+#contaienr {
+  width: 80vw;
+  margin: 20px auto;
+  #heading {
+    #my-name {
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 70px;
+      text-align: center;
+    }
+    #address {
+      text-align: center;
+      text-transform: capitalize;
+      margin: 10px;
+      font-weight: 700;
+      font-size: 17px;
+      color: $color2;
+    }
+    #contact {
+      width: 50%;
+      flex-wrap: wrap;
+      margin: 10px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      > div {
+        display: inline-block;
+        color: $color1;
+        margin: 5px 0;
+        border: 1px solid $color1;
+        padding: 15px;
+        border-radius: 15px;
+        &.phone {
+          position: relative;
+          right: 65px;
+        }
+        i {
+          color: $color2;
+          margin-right: 3px;
+        }
+      }
+    }
+  }
+  #skills {
+    margin: 50px 0;
+    h3 {
+      font-size: 30px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 70%;
+      margin: 20px auto;
+      li {
+        list-style: none;
+        font-weight: 500;
+        color: white;
+        background-color: $color2;
+        padding: 5px 10px;
+        border-radius: 15px;
+        margin: 20px 0;
+      }
+    }
+  }
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    > h3 {
+      width: 100%;
+      font-size: 30px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    > div {
+      h3 {
+        color: $color2;
+        text-transform: capitalize;
+        font-weight: 700;
+      }
+      margin: 20px 0;
+      width: 50%;
+      &:last-child {
+        display: flex;
+        align-items: center;
+        color: $color2;
+      }
+      li {
+        width: fit-content;
+        border: 1px solid $color1;
+        padding: 5px 10px;
+        margin: 10px 0;
+
+        border-radius: 15px;
+      }
+    }
+  }
+  #experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    > h3 {
+      font-size: 30px;
+      width: 100%;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .work {
+      width: 50%;
+      margin: 20px 0;
+      h3 {
+        color: $color2;
+        text-transform: capitalize;
+      }
+      span.date {
+        text-transform: capitalize;
+        font-weight: 700;
+        float: right;
+      }
+      .camp {
+        text-transform: capitalize;
+        font-weight: 700;
+        margin: 20px;
+      }
+      ol {
+        text-transform: capitalize;
+        li {
+          border: 1px solid $color1;
+          padding: 5px 10px;
+          border-radius: 15px;
+          margin: 10px 0;
+          width: fit-content;
+        }
+      }
+    }
+  }
+  #educations {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    h3 {
+      width: 100%;
+      font-size: 30px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .education {
+      width: 48%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 20px 0;
+      border: 1px solid $color1;
+      padding: 15px;
+      border-radius: 15px;
+      .deg {
+        color: $color2;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: capitalize;
+      }
+      .date {
+        font-weight: 700;
+      }
+    }
+  }
+}

@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#contaienr {
+  width: 80vw;
+  margin: 20px auto;
+}
+#contaienr #heading #my-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+}
+#contaienr #heading #address {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1a2980;
+}
+#contaienr #heading #contact {
+  width: 50%;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#contaienr #heading #contact > div {
+  display: inline-block;
+  color: #46474d;
+  margin: 5px 0;
+  border: 1px solid #46474d;
+  padding: 15px;
+  border-radius: 15px;
+}
+#contaienr #heading #contact > div.phone {
+  position: relative;
+  right: 65px;
+}
+#contaienr #heading #contact > div i {
+  color: #1a2980;
+  margin-right: 3px;
+}
+#contaienr #skills {
+  margin: 50px 0;
+}
+#contaienr #skills h3 {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+#contaienr #skills ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 20px auto;
+}
+#contaienr #skills ul li {
+  list-style: none;
+  font-weight: 500;
+  color: white;
+  background-color: #1a2980;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+#contaienr #projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#contaienr #projects > h3 {
+  width: 100%;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+#contaienr #projects > div {
+  margin: 20px 0;
+  width: 50%;
+}
+#contaienr #projects > div h3 {
+  color: #1a2980;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+#contaienr #projects > div:last-child {
+  display: flex;
+  align-items: center;
+  color: #1a2980;
+}
+#contaienr #projects > div li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid #46474d;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+#contaienr #experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#contaienr #experience > h3 {
+  font-size: 30px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+#contaienr #experience .work {
+  width: 50%;
+  margin: 20px 0;
+}
+#contaienr #experience .work h3 {
+  color: #1a2980;
+  text-transform: capitalize;
+}
+#contaienr #experience .work span.date {
+  text-transform: capitalize;
+  font-weight: 700;
+  float: right;
+}
+#contaienr #experience .work .camp {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 20px;
+}
+#contaienr #experience .work ol {
+  text-transform: capitalize;
+}
+#contaienr #experience .work ol li {
+  border: 1px solid #46474d;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 10px 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#contaienr #educations {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#contaienr #educations h3 {
+  width: 100%;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+#contaienr #educations .education {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  border: 1px solid #46474d;
+  padding: 15px;
+  border-radius: 15px;
+}
+#contaienr #educations .education .deg {
+  color: #1a2980;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+#contaienr #educations .education .date {
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
