@@ -1,6 +1,6 @@
 # Heading
 
-1.name-
+1.name: Louy Hany Ahmed
 
 ## 2-address
 
@@ -8,10 +8,10 @@
 
 ## 4.contact
 
-1-github
-2-linkedin
-3-email
-4-my number
+1-github: [My Github](https://github.com/louy999)
+2-linkedin: [My Linkedin](https://www.linkedin.com/in/louy-hany)
+3-email: louyhany999@gmail.com
+4-my number:+201029939183
 
 # Skills
 
@@ -22,6 +22,7 @@
 5.typescript
 6.git/gitFlow
 7.Unit Test (Jest)
+8-Bootstrap
 
 # Projects
 
@@ -36,4 +37,6 @@
 
 # Education
 
-bachelor in MIS from pharos academe
+1- bachelor in MIS from pharos academe
+2- Front End Developer Nanodegree form Udacity
+3-IT Essentials form Cisco
