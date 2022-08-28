@@ -137,11 +137,20 @@ $color2: #1a2980;
         text-transform: capitalize;
         font-weight: 700;
         float: right;
+        position: relative;
+        bottom: 100px;
       }
-      .camp {
-        text-transform: capitalize;
-        font-weight: 700;
-        margin: 20px;
+      .ex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 167px;
+        .camp {
+          text-transform: capitalize;
+          font-weight: 700;
+          margin: 10px;
+          height: 100px;
+        }
       }
       ol {
         text-transform: capitalize;
