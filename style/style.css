@@ -39,10 +39,10 @@
   border: 1px solid #46474d;
   padding: 15px;
   border-radius: 15px;
+  width: 40%;
 }
 #contaienr #heading #contact > div.phone {
   position: relative;
-  right: 65px;
 }
 #contaienr #heading #contact > div i {
   color: #1a2980;
@@ -60,7 +60,7 @@
 }
 #contaienr #skills ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   width: 70%;
   margin: 20px auto;
@@ -102,7 +102,6 @@
   color: #1a2980;
 }
 #contaienr #projects > div li {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   border: 1px solid #46474d;
@@ -159,7 +158,6 @@
   padding: 5px 10px;
   border-radius: 15px;
   margin: 10px 0;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }

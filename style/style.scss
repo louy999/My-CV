@@ -41,9 +41,9 @@ $color2: #1a2980;
         border: 1px solid $color1;
         padding: 15px;
         border-radius: 15px;
+        width: 40%;
         &.phone {
           position: relative;
-          right: 65px;
         }
         i {
           color: $color2;
@@ -63,7 +63,7 @@ $color2: #1a2980;
     }
     ul {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
       width: 70%;
       margin: 20px auto;
